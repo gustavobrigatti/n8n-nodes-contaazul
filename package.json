@@ -29,14 +29,8 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/ContaAzulApi.credentials.js"
-    ],
     "nodes": [
-      "dist/nodes/ContaAzul/Costumers.node.js",
-      "dist/nodes/ContaAzul/CreateCustomer.node.js",
-      "dist/nodes/ContaAzul/CreateSale.node.js",
-      "dist/nodes/ContaAzul/CreateContract.node.js"
+      "dist/nodes/ContaAzul/ContaAzul.node.js"
     ]
   },
   "devDependencies": {
